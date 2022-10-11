@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+  /* background-color: rgba(215, 202, 202, 0.394); */
+background-color: rgba(187, 183, 183, 0.18);
+}
+.sidebar{
+    background-color: #032F41;
+    margin: -11px;
+    width: 19.4%;
+    max-height: 105vh;
+    /* height: 130vh; */
+    /* border: 5px solid gray; */
+    position: fixed;
+    top: 0%;
+    left: 0.5%;
+    overflow-y: scroll;
+    z-index: 2;
+ }
+ /* .sidebar ul{ */
+  /* margin: 8px 0px 0px 27px; */
+  /* padding: 7px; */
+/* }   */
+/* .sidebar:hover{
+  overflow-y: scroll;
+} */
+.sidebar ul li{
+    color: #fff;
+    padding: 7px;
+    margin: 7px 0px 13px 27px;
+    list-style: none;
+}
+/* .fa-solid{ */
+  /* margin: 0px 8px 0px 0px ; */
+/* } */
+
+
+.fa01:hover{
+    background-color: rgba(255, 255, 255, 0.446) ;
+    
+   cursor: pointer;
+}
+
+
+/* ----------------linebar */
+.wrapper{
+  position: absolute;
+  top: 8%;
+  left: 88%;
+  transform: translate(-50%,-50%); 
+}
+
+.hamburger{
+  width: 100px;
+  height: 100px;
+  /* background: #032F41; */
+  /* box-shadow: 0 0 15px rgba(3,47,65,1); */
+  cursor: pointer;
+  position: relative;
+  border-radius: 5px;
+}
+
+.hamburger > div{
+  position: absolute;
+	height: 1px;
+  background: #fff;
+  transition: width 0.3s ease;
+  border-radius: 5px;
+}
+
+.first{
+   width: 14px;
+  top:    34px;
+  left:   30px; 
+}
+
+.second{
+  width: 30px;
+ top:    40px;
+	left: 30px;
+}
+
+.third{
+  width: 25px;
+  top: 45px;
+	left: 30px;
+}
+
+.hamburger:hover div{
+  width: 30px;
+  transition: width 0.3s ease;
+}
+
+
+
+
+/* navbar------------------------------------------- */
+
+.navbar{
+    background-color: #fff;
+    color: black;
+    width: 100%;
+    height: 10vh;
+    margin-right: 10px;
+    padding: 2px;
+     position: fixed;
+    z-index: 1;
+box-shadow: 5px 1px 6px -5px;
+}
+.sidelogs{
+  background-color: #fff;
+}
+.heading{
+     display: flex;
+    margin: 13px -11px 32px 350px;
+}
+h1{
+  margin: 4px 4px 4px 4px;
+  font-weight: lighter;
+}
+.navlogo{
+margin: 2px 20px 20px -55px ;
+padding: px;
+}
+.navlogo2{
+float: right;
+margin: -100px 350px 0px 36px ;
+}
+.myid{
+  float: right;
+  font-size: 14px;
+margin: -88px 100px 0px 36px
+  
+}
+.profile img{
+  float: right;
+  margin: -100px 25px 10px 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.heading2{
+display: inline; 
+position: absolute;
+top: 17%;
+left: 22%;
+ transform: translate(-20% -20%); 
+ font-weight: bold; font-size: larger;
+}
+.flexbox{
+    display: flex;
+    /* border: 2px solid gray; */
+    position: absolute;
+     top :23%;
+     left: 20.5%;
+    flex-wrap: wrap;
+}
+.boxes{
+   
+    background-color: #fff;
+    color: black;
+    margin: 14px;
+    width: 47%;
+    height: 55vh;
+    box-shadow: 15px 18px 9px -1px #888888db;
+}
+.boxes hr{
+  width: 95%;
+  /* height: 1px; */
+  /* border:1px solid rgba(187, 183, 183, 0.18); */
+  margin: 0px 10px;
+}
+.boxicons{
+margin: -15px 18px;
+/* padding: 1px; */
+}
+.boxicons img{
+height: 40px;
+margin: 24px;
+}
+.iconsdetails{
+  display: flex;
+  color: Black;
+  font-size: 10px;
+  font-weight: bold;
+  margin: -40px 12px;
+}
+.iconsdetails p{
+  margin: 30px;
+  /* padding: 10px; */
+}
+
+ .boxheading p{
+  /* background: rgba(137, 43, 226, 0.894);
+  color: #fff;
+  height: 31px; */
+  margin: 0px 20px;
+  padding: 7px;
+ 
+} 
+.boxheading{
+  background: rgba(137, 43, 226, 0.894);
+  color: #fff;
+  height: 100px;
+
+}
+.headingsfont{
+  font-size: 13px ;
+  font-family: system-ui;
+}
+
+.boximg{
+  /* position: absolute; */
+  /* top: 0%;
+  left: 0%; */
+    /* min-height: 7rem; */
+    /* min-width: 6rem; */
+    height: 7rem;
+    width: 6.2rem;
+    border-radius: 10% !important;
+    border: 1px solid #ddd;
+    padding: 3px;
+    margin: 20px;
+}
+.boximg img{
+  width: 100px;
+  height: 113px;
+  border-radius: 10px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
